@@ -1,0 +1,26 @@
+{
+  "name": "ReactNativeShareExtension",
+  "version": "2.0.0",
+  "summary": "share extension using react-native for both ios and android",
+  "license": "MIT",
+  "authors": {
+    "name": "Ali Najafizadeh",
+    "email": "a.najafizadeh@gmail.com",
+    "url": "http://github.com/alinz"
+  },
+  "homepage": "git+ssh://git@github.com/alinz/react-native-share-extension.git",
+  "platforms": {
+    "ios": "9.0",
+    "tvos": "10.0"
+  },
+  "source": {
+    "git": "hhttps://github.com/Aleqsd/react-native-share-extension.git",
+    "tag": "master"
+  },
+  "source_files": "ios/**/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}
