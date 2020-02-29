@@ -1,0 +1,6 @@
+framework module Pods_Sample1_MyShareEx {
+  umbrella header "Pods-Sample1-MyShareEx-umbrella.h"
+
+  export *
+  module * { export * }
+}

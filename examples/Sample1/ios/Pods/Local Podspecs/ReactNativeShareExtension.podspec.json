@@ -14,7 +14,7 @@
     "tvos": "10.0"
   },
   "source": {
-    "git": "hhttps://github.com/Aleqsd/react-native-share-extension.git",
+    "git": "https://github.com/Aleqsd/react-native-share-extension.git",
     "tag": "master"
   },
   "source_files": "ios/**/*.{h,m}",

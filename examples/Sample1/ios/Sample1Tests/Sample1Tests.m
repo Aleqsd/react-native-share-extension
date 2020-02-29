@@ -10,7 +10,6 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-#import "RCTLog.h"
 #import "RCTRootView.h"
 
 #define TIMEOUT_SECONDS 600
@@ -40,13 +39,6 @@
   UIViewController *vc = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
   NSDate *date = [NSDate dateWithTimeIntervalSinceNow:TIMEOUT_SECONDS];
   BOOL foundElement = NO;
-
-  __block NSString *redboxError = nil;
-  RCTSetLogFunction(^(RCTLogLevel level, RCTLogSource source, NSString *fileName, NSNumber *lineNumber, NSString *message) {
-    if (level >= RCTLogLevelError) {
-      redboxError = message;
-    }
-  });
 
   while ([date timeIntervalSinceNow] > 0 && !foundElement && !redboxError) {
     [[NSRunLoop mainRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate dateWithTimeIntervalSinceNow:0.1]];

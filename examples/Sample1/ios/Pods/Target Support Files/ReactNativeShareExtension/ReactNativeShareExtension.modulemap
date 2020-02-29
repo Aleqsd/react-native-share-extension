@@ -1,0 +1,6 @@
+framework module ReactNativeShareExtension {
+  umbrella header "ReactNativeShareExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

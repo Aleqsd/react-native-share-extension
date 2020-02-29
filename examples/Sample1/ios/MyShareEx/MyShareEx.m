@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "ReactNativeShareExtension.h"
-#import "RCTBundleURLProvider.h"
-#import "RCTRootView.h"
+#import <React/RCTBundleURLProvider.h>
+#import <React/RCTRootView.h>
 
 @interface MyShareEx : ReactNativeShareExtension
 @end

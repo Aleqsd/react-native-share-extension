@@ -15,6 +15,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1BEE828C124E6416179B904A9F66D794"
+               BuildableName = "React"
+               BlueprintName = "React"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "415B98261D7873A50090F804"
                BuildableName = "MyShareEx.appex"
                BlueprintName = "MyShareEx"
@@ -67,6 +81,13 @@
             ReferencedContainer = "container:Sample1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

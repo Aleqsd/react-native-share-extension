@@ -18,7 +18,7 @@ export default class App extends Component {
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.android.js
+          To get started, edit index.ios.js
         </Text>
         <Text style={styles.instructions}>
           Shake or press menu button for dev menu
